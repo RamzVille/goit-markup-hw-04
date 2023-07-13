@@ -63,20 +63,18 @@ img {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-.menu-link_contacts {
-    font-weight: 400;
-    color: var(--slate);
-}
 .link:hover, .link:focus {
     color: var(--iris);
 }
 .link:active {
     color: var(--ocean);
 }
-.contact-links .link {
-    color: var(--navyblue);
+.contact-links {
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--slate);
 }
-.contact-links .link:focus, .link:hover {
+.contact-links:focus, .contact-links:hover {
     color: var(--iris);
 }
 .contact-links .link:active {
